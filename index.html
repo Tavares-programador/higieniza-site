@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Higieniza+ — limpeza profissional de sofás, colchões, tapetes, carros e desinfestação de ambientes em Luanda, Icolo e Bengo.">
+<title>Higieniza+ | Limpeza profissional de estofados</title>
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+    <div class="loader-mark">Higieniza+</div>
+    <div class="loader-bar"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav id="mainNav">
+    <a href="index.html" class="brand">
+        <img src="images/logo-icon.png" alt="Higieniza+" class="mark-logo">
+        Higieniza+
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-right">
+        <ul class="navbar" id="navMenu">
+            <a href="#home" data-i18n="nav.home">Início</a>
+            <a href="#services" data-i18n="nav.services">Serviços</a>
+            <a href="#pricing" data-i18n="nav.pricing">Orçamento</a>
+            <a href="#testimonials" data-i18n="nav.testimonials">Avaliações</a>
+            <a href="about.html" data-i18n="nav.about">Sobre</a>
+            <a href="contact.html" data-i18n="nav.contact">Contacto</a>
+            <a href="https://wa.me/244949943236" class="nav-cta" target="_blank" rel="noopener" data-i18n="nav.cta">Falar agora</a>
+        </ul>
+
+        <div class="lang-switch">
+            <button data-lang="pt">PT</button>
+            <button data-lang="en">EN</button>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-grid">
+
+        <div>
+            <span class="hero-eyebrow" data-i18n="hero.eyebrow">Luanda · Icolo · Bengo</span>
+            <h1>
+                <span data-i18n="hero.title1">Sujo é só um</span><br>
+                <em data-i18n="hero.title2">estado temporário</em>
+            </h1>
+            <p class="hero-lede" data-i18n="hero.lede">Arraste o controlo e veja a diferença. É exatamente isto que deixamos em cada sofá, colchão, tapete ou carro que tocamos.</p>
+
+            <div class="hero-actions">
+                <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta1">Solicitar orçamento</a>
+                <a href="https://wa.me/244949943236" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero.cta2">Falar no WhatsApp</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <b data-i18n="hero.stat1n">4.9 / 5</b>
+                    <span data-i18n="hero.stat1l">avaliação média</span>
+                </div>
+                <div class="hero-stat">
+                    <b data-i18n="hero.stat2n">120+</b>
+                    <span data-i18n="hero.stat2l">atendimentos</span>
+                </div>
+                <div class="hero-stat">
+                    <b data-i18n="hero.stat3n">3</b>
+                    <span data-i18n="hero.stat3l">províncias</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="compare reveal">
+            <span class="compare-tag tag-after" data-i18n="compare.after">Depois</span>
+            <span class="compare-tag tag-before" data-i18n="compare.before">Antes</span>
+
+            <img class="compare-img compare-after" src="images/hero-compare.jpg" alt="Sofá limpo e estofado após higienização profissional">
+
+            <div class="compare-before-wrap">
+                <img src="images/hero-compare.jpg" style="filter:grayscale(0.5) sepia(0.35) brightness(0.7) contrast(1.05);" alt="Sofá antes da limpeza profissional">
+            </div>
+
+            <div class="compare-handle">
+                <div class="compare-grip"><span></span><span></span></div>
+            </div>
+
+            <span class="compare-hint" data-i18n="compare.hint">Arraste ←→</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="services">
+    <div class="container-w">
+        <div class="section-head">
+            <span class="eyebrow" data-i18n="services.eyebrow">O que fazemos</span>
+            <h2 data-i18n="services.title">Seis formas de recomeçar limpo</h2>
+            <p data-i18n="services.lede">Equipamento profissional, produtos certificados e uma equipa que trata a sua casa como se fosse a nossa.</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card reveal">
+                <div class="service-media">
+                    <span class="service-num">01</span>
+                    <img src="images/service-01-sofas.jpg" alt="Lavagem de sofás" loading="lazy">
+                </div>
+                <div class="service-body">
+                    <h4 data-i18n="s1.title">Lavagem de Sofás</h4>
+                    <p data-i18n="s1.desc">Remoção profunda de manchas, odores e ácaros sem danificar o tecido.</p>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-media">
+                    <span class="service-num">02</span>
+                    <img src="images/service-02-colchoes.jpg" alt="Lavagem de colchões" loading="lazy">
+                </div>
+                <div class="service-body">
+                    <h4 data-i18n="s2.title">Lavagem de Colchões</h4>
+                    <p data-i18n="s2.desc">Eliminação de ácaros e bactérias para noites de sono mais saudáveis.</p>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-media">
+                    <span class="service-num">03</span>
+                    <img src="images/service-03-tapetes.jpg" alt="Limpeza de tapetes" loading="lazy">
+                </div>
+                <div class="service-body">
+                    <h4 data-i18n="s3.title">Limpeza de Tapetes</h4>
+                    <p data-i18n="s3.desc">Higienização completa que devolve cor e textura original.</p>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-media">
+                    <span class="service-num">04</span>
+                    <img src="images/service-04-desinfestacao.jpg" alt="Desinfestação de pragas" loading="lazy">
+                </div>
+                <div class="service-body">
+                    <h4 data-i18n="s4.title">Desinfestação</h4>
+                    <p data-i18n="s4.desc">Ambientes livres de pragas, com segurança para crianças e animais.</p>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-media">
+                    <span class="service-num">05</span>
+                    <img src="images/service-05-sanizacao.jpg" alt="Sanização de ambientes" loading="lazy">
+                </div>
+                <div class="service-body">
+                    <h4 data-i18n="s5.title">Sanização de Ambientes</h4>
+                    <p data-i18n="s5.desc">Desinfeção de superfícies para mais saúde e bem-estar no dia a dia.</p>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-media">
+                    <span class="service-num">06</span>
+                    <img src="images/service-06-automotiva.jpg" alt="Limpeza automotiva" loading="lazy">
+                </div>
+                <div class="service-body">
+                    <h4 data-i18n="s6.title">Limpeza Automotiva</h4>
+                    <p data-i18n="s6.desc">Higienização interna completa de bancos, tapetes e forração do carro.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROCESSO -->
+<section class="bg-soft">
+    <div class="container-w">
+        <div class="section-head">
+            <span class="eyebrow clay" data-i18n="process.eyebrow">Como trabalhamos</span>
+            <h2 data-i18n="process.title">Do diagnóstico ao resultado</h2>
+            <p data-i18n="process.lede">Quatro etapas, sempre na mesma ordem, para garantir consistência em cada atendimento.</p>
+        </div>
+
+        <div class="process reveal">
+            <div class="process-step">
+                <span class="step-no">01</span>
+                <h4 data-i18n="p1.title">Diagnóstico</h4>
+                <p data-i18n="p1.desc">Avaliamos o tecido, a mancha e o nível de sujidade antes de começar.</p>
+            </div>
+            <div class="process-step">
+                <span class="step-no">02</span>
+                <h4 data-i18n="p2.title">Pré-tratamento</h4>
+                <p data-i18n="p2.desc">Aplicamos produto específico para amolecer manchas e odores.</p>
+            </div>
+            <div class="process-step">
+                <span class="step-no">03</span>
+                <h4 data-i18n="p3.title">Limpeza profunda</h4>
+                <p data-i18n="p3.desc">Extração a vapor ou a seco, conforme o material da peça.</p>
+            </div>
+            <div class="process-step">
+                <span class="step-no">04</span>
+                <h4 data-i18n="p4.title">Secagem &amp; inspeção</h4>
+                <p data-i18n="p4.desc">Verificação final para garantir que tudo ficou exatamente como prometido.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ORÇAMENTO -->
+<section id="pricing">
+    <div class="container-w">
+        <div class="section-head">
+            <span class="eyebrow" data-i18n="pricing.eyebrow">Investimento</span>
+            <h2 data-i18n="pricing.title">Preços claros, sem surpresas</h2>
+            <p data-i18n="pricing.lede">Escolha o serviço, confirme o valor e agende em poucos minutos pelo WhatsApp.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+            <div class="price-card reveal">
+                <div class="price-media">
+                    <img src="images/pricing-sofa.jpg" alt="Sofá 2 lugares" loading="lazy">
+                </div>
+                <div class="price-body">
+                    <span class="price-tag" data-i18n="pr1.tag">Mais pedido</span>
+                    <div class="price-amount">9.500 Kz</div>
+                    <h4 data-i18n="pr1.title">Sofá 2 Lugares</h4>
+                    <p data-i18n="pr1.desc">Limpeza completa com extração a vapor e secagem rápida.</p>
+                    <a href="https://wa.me/244949943236?text=Ol%C3%A1!%20Quero%20solicitar%20a%20limpeza%20de%20sof%C3%A1%202%20lugares." target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="pricing.btn">Solicitar este serviço</a>
+                </div>
+            </div>
+
+            <div class="price-card featured reveal">
+                <div class="price-media">
+                    <img src="images/pricing-colchao.jpg" alt="Colchão king" loading="lazy">
+                </div>
+                <div class="price-body">
+                    <span class="price-tag" data-i18n="pr2.tag">Recomendado</span>
+                    <div class="price-amount">14.500 Kz</div>
+                    <h4 data-i18n="pr2.title">Colchão King</h4>
+                    <p data-i18n="pr2.desc">Eliminação de ácaros e bactérias em profundidade.</p>
+                    <a href="https://wa.me/244949943236?text=Ol%C3%A1!%20Quero%20solicitar%20a%20limpeza%20de%20colch%C3%A3o%20king." target="_blank" rel="noopener" class="btn btn-clay" data-i18n="pricing.btn">Solicitar este serviço</a>
+                </div>
+            </div>
+
+            <div class="price-card reveal">
+                <div class="price-media">
+                    <img src="images/pricing-desinfestacao.jpg" alt="Desinfestação de ambiente" loading="lazy">
+                </div>
+                <div class="price-body">
+                    <span class="price-tag" data-i18n="pr3.tag">Ambientes</span>
+                    <div class="price-amount">15.000 Kz</div>
+                    <h4 data-i18n="pr3.title">Desinfestação</h4>
+                    <p data-i18n="pr3.desc">Tratamento completo para casa, escritório ou armazém.</p>
+                    <a href="https://wa.me/244949943236?text=Ol%C3%A1!%20Quero%20solicitar%20uma%20desinfesta%C3%A7%C3%A3o." target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="pricing.btn">Solicitar este serviço</a>
+                </div>
+            </div>
+
+        </div>
+
+        <p style="text-align:center; color:var(--muted-soft); font-size:13px; margin-top:36px; font-family:var(--mono);" data-i18n="pricing.note">Valores de referência para Luanda. Orçamento final confirmado por WhatsApp após avaliação.</p>
+    </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="bg-soft" id="testimonials">
+    <div class="container-w">
+        <div class="section-head">
+            <span class="eyebrow clay" data-i18n="testi.eyebrow">Feedback real</span>
+            <h2 data-i18n="testi.title">Quem usou, recomenda</h2>
+            <p data-i18n="testi.lede">Resultados de quem já confiou na Higieniza+ para cuidar da casa, escritório ou carro.</p>
+        </div>
+
+        <div class="rating-summary reveal">
+            <span class="rating-score">4.9</span>
+            <div>
+                <div class="rating-stars" aria-hidden="true">★★★★★</div>
+                <div class="rating-meta" data-i18n="testi.meta">baseado em mais de 120 atendimentos</div>
+            </div>
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card reveal">
+                <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+                <p class="testimonial-text" data-i18n="t1.text">O sofá parecia novo depois da limpeza. Tirou manchas que eu já achava que nunca iam sair. Atendimento pontual e muito profissional.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">MJ</div>
+                    <div>
+                        <div class="testimonial-name">Marta João <span class="verified-badge">✓</span></div>
+                        <div class="testimonial-service" data-i18n="t1.service">Lavagem de sofá</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal">
+                <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+                <p class="testimonial-text" data-i18n="t2.text">Pedi a desinfestação para o escritório e o resultado foi excelente. Equipa rápida, organizada e o ambiente ficou sem cheiro nenhum de produto forte.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">CS</div>
+                    <div>
+                        <div class="testimonial-name">Carlos Sebastião <span class="verified-badge">✓</span></div>
+                        <div class="testimonial-service" data-i18n="t2.service">Desinfestação</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal">
+                <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+                <p class="testimonial-text" data-i18n="t3.text">Lavaram o colchão king e o estofado do carro no mesmo dia. Chegaram no horário marcado e o preço foi exatamente o combinado. Recomendo de olhos fechados.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">IF</div>
+                    <div>
+                        <div class="testimonial-name">Inês Fortunato <span class="verified-badge">✓</span></div>
+                        <div class="testimonial-service" data-i18n="t3.service">Colchão + Automotiva</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section>
+    <div class="cta-final reveal">
+        <h2 data-i18n="cta.title">Pronto para um ambiente mais limpo?</h2>
+        <p data-i18n="cta.lede">Fale connosco agora e receba o seu orçamento personalizado em minutos.</p>
+        <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary" data-i18n="cta.btn1">Solicitar orçamento</a>
+            <a href="https://wa.me/244949943236" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="cta.btn2">Falar no WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <a href="index.html" class="brand"><img src="images/logo-icon.png" alt="Higieniza+" class="mark-logo">Higieniza+</a>
+            <p data-i18n="footer.desc">Limpeza profissional de estofados, colchões, tapetes e desinfestação em Luanda, Icolo e Bengo.</p>
+        </div>
+
+        <div class="footer-cols">
+            <div class="footer-col">
+                <h5 data-i18n="footer.services">Serviços</h5>
+                <a href="#services" data-i18n="s1.title">Lavagem de Sofás</a>
+                <a href="#services" data-i18n="s2.title">Lavagem de Colchões</a>
+                <a href="#services" data-i18n="s4.title">Desinfestação</a>
+                <a href="#services" data-i18n="s6.title">Limpeza Automotiva</a>
+            </div>
+            <div class="footer-col">
+                <h5 data-i18n="footer.company">Empresa</h5>
+                <a href="about.html" data-i18n="nav.about">Sobre</a>
+                <a href="#testimonials" data-i18n="nav.testimonials">Avaliações</a>
+                <a href="#pricing" data-i18n="nav.pricing">Orçamento</a>
+            </div>
+            <div class="footer-col">
+                <h5 data-i18n="footer.contact">Contacto</h5>
+                <span>+244 949 943 236</span>
+                <span data-i18n="footer.hours">Seg–Sáb · 8h–18h</span>
+                <span>Luanda, Angola</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p data-i18n="footer.rights">© 2026 Higieniza+ — Todos os direitos reservados</p>
+        <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+            <a href="https://wa.me/244949943236" target="_blank" rel="noopener" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <p><span data-i18n="footer.dev">Website desenvolvido por:</span> <strong>VoltexDEV</strong></p>
+    </div>
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="https://wa.me/244949943236" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.2-.6.9-.8 1.1-.1.2-.3.2-.5.1-1.3-.6-2.3-1.4-3.1-2.7-.1-.2-.1-.4.1-.6.2-.2.4-.5.6-.7.1-.1.1-.3.1-.5-.1-.2-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.7.7-1 1.5-1 2.5.1 1.1.5 2.2 1.2 3.2 1.5 2.1 3.3 3.6 5.7 4.4.6.2 1.1.3 1.6.2.7-.1 1.6-.7 1.9-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+</a>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
